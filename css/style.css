@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Merriweather Sans", sans-serif;
+    Font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
     color: white;
     background-color: white;
     display: flex;
@@ -84,7 +84,7 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .button-container:hover {
@@ -155,7 +155,7 @@ header {
     flex-grow: 1;
     height: 105px;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(43, 41, 41);
 }
 
@@ -178,10 +178,18 @@ header {
     font-size: 14px;
 }
 
+.button:hover {
+    background: #595964;
+}
+
 .apply-now {
     color: white;
     background-color: #3060ff;
     margin-right: 15px;
+}
+
+.apply-now:hover {
+    background: #5a81ff;
 }
 
 @media screen and (max-width: 930px) {
